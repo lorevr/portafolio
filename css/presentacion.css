@@ -1,0 +1,42 @@
+.presentacion {
+    background-image: url(/imagenes/wave-haikei.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 10%;
+    background-color: #d8dfe8;
+}
+
+.presentacion__titulo {
+    font-family: 'Montserrat', serif;
+    color: #04254d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+
+    padding: 1.5rem 1rem;
+}
+
+.presentacion__quienSoy {
+    color: #04254d;
+    font-size: 1rem;
+    line-height: normal;
+    text-align: justify;
+
+    padding: 0 1rem 2.5rem 1rem;
+}
+
+.presentacion__foto {
+    width: 50%;
+    border-radius: 135px 40px 63px 0px;
+    border: 4px inset #65b8d8;
+    overflow: hidden;
+}
+
+.presentacion__foto img {
+    width: 100%;
+}
