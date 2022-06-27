@@ -1,0 +1,9 @@
+<svg id="visual" viewBox="0 0 900 900" width="900" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <defs>
+        <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#0a3871;stop-opacity:1" />
+        <stop offset="30%" style="stop-color:#0a3871;stop-opacity:0.7" />
+        <stop offset="100%" style="stop-color:#0a3871;stop-opacity:0.2" />
+        </linearGradient>
+    </defs>
+  <path d="M0 44L15 46.2C30 48.3 60 52.7 90 53C120 53.3 150 49.7 180 46.5C210 43.3 240 40.7 270 38.3C300 36 330 34 360 35C390 36 420 40 450 43.2C480 46.3 510 48.7 540 46.5C570 44.3 600 37.7 630 34.7C660 31.7 690 32.3 720 35C750 37.7 780 42.3 810 42.5C840 42.7 870 38.3 885 36.2L900 34L900 0L885 0C870 0 840 0 810 0C780 0 750 0 720 0C690 0 660 0 630 0C600 0 570 0 540 0C510 0 480 0 450 0C420 0 390 0 360 0C330 0 300 0 270 0C240 0 210 0 180 0C150 0 120 0 90 0C60 0 30 0 15 0L0 0Z" fill="url(#grad2)" stroke-linecap="round" stroke-linejoin="miter"></path></svg>

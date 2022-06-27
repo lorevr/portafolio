@@ -9,7 +9,6 @@
     color: #fff;
     padding-top: 10%;
     background-color: #d8dfe8;
-    /* height: 200px; */
 }
 
 .presentacion__titulo {
@@ -33,11 +32,7 @@
 
 .presentacion__foto {
     width: 50%;
-    border-radius: 135px 40px 63px 0px;
+    height: 50%;
+    border-radius: 40% 10% 20% 0;
     border: 4px inset #65b8d8;
-    /* overflow: hidden; */
-}
-
-.presentacion__foto img {
-    /* width: 100%; */
 }
