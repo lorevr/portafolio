@@ -12,21 +12,13 @@ header {
 .head__logo {
     font-family: 'Babylonica', cursive;
     font-size: 2rem;
-    margin-top: -2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     align-self: center;
 }
 
 .head__logo span {
     font-size: 1.6rem;
-}
-
-.head__navegacion {
-
-}
-
-.head__enlace {
-
 }
 
 .head__enlace  li:nth-child(1n) {
