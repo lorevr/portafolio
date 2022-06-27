@@ -35,9 +35,9 @@
     width: 50%;
     border-radius: 135px 40px 63px 0px;
     border: 4px inset #65b8d8;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .presentacion__foto img {
-    width: 100%;
+    /* width: 100%; */
 }
