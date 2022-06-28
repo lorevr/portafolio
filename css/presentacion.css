@@ -10,7 +10,7 @@
     padding-top: 10%;
 }
 
-.presentacion__titulo {
+.titulo {
     font-family: 'Montserrat', serif;
     color: #04254d;
     font-size: 1.5rem;
@@ -20,7 +20,7 @@
     padding: 1.5rem 1rem;
 }
 
-.presentacion__quienSoy {
+.contenido {
     color: #04254d;
     font-size: 1rem;
     line-height: normal;
@@ -34,4 +34,8 @@
     height: 50%;
     border-radius: 40% 10% 20% 0;
     border: 4px inset #65b8d8;
+}
+
+.sobreMi {
+    background: #fbcb8d;
 }

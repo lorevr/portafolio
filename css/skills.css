@@ -1,0 +1,26 @@
+.skills__titulo {
+    font-family: 'Montserrat', serif;
+    color: #04254d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+
+    padding: 1.5rem 1rem;
+}
+
+.skills__container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills__skill {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .skills__skill-html {width: 90%; background-color: #04AA6D;} 
+  .skills__skill-css {width: 80%; background-color: #2196F3;} 
+  .skills__skill-js {width: 65%; background-color: #f44336;} 
+  .skills__skill-php {width: 60%; background-color: #808080;} 
