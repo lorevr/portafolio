@@ -1,5 +1,5 @@
 .presentacion {
-    background-image: url(/imagenes/wave-haikei.svg);
+    background-image: url("/imagenes/wave-haikei.svg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
