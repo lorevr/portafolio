@@ -1,25 +1,50 @@
 header {
-    color: #fff;
+    color: #0a3871;
+    font-weight: 500;
     width: 100%;
-    background-color: #0a3871;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 1rem 0;
+    height: 25px;
+    background-color: #65b8D8;
+    padding: 8px 0px 0 0;
+}
 
+.head__forma-base {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #0a3871;
+    border-right: 400px solid transparent;
+    margin-top: -15px;
+}
+
+.head__linea {
+    background: #65b8D8;
+    width: 100%;
+    height: 5px;
+    margin-top: 2px;   
+}
+
+.head__linea2 {
+    background: #65b8D8;
+    width: 100%;
+    height: 3px;
+    margin-top: 2px;
 }
 
 .head__logo {
     font-family: 'Babylonica', cursive;
+    color: #ffffff;
     font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    align-self: center;
+    position: inherit;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    position: absolute;
+    transform: rotate(-15deg);
 }
 
-.head__logo span {
-    font-size: 1.6rem;
+.head__navegacion {
+    text-align: right;
 }
+
 
 .head__enlace  li:nth-child(1n) {
     display: none;
@@ -28,4 +53,65 @@ header {
 .head__enlace  li:last-child {
     display: block;
     margin-right: 15px;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 860px) {
+
+    .head__enlace  li:nth-child(1n) {
+        display: block;
+    }
+
+    .head__enlace {
+        display: flex;
+        justify-content: end;
+        gap: 1rem;
+    }
+
+    .head__enlace-link:hover {
+        border-bottom: 1px solid #000000;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        height: 50px;
+    }
+
+    .head__forma-base {
+        border-top: 120px solid #0a3871;
+        border-right: 400px solid transparent;
+    }
+
+    .head__logo {
+        font-size: 2.5rem;
+        transform: rotate(-17deg);
+        margin-left: 0rem;
+    }
+
+    .head__enlace {
+        gap: 1.5rem;
+        font-size: 1.25rem;
+        padding-top: 7px;
+    }
+
+    .head__enlace-link:hover {
+        border-bottom: 1px solid #000000;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .head__forma-base {
+        border-top: 160px solid #0a3871;
+        border-right: 600px solid transparent;
+    }
+
+    .head__logo {
+        font-size: 3.2rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+        position: absolute;
+        transform: rotate(-15deg);
+    }
 }

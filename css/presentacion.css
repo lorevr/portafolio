@@ -1,7 +1,7 @@
 .presentacion {
-    background: url(/imagenes/wave-haikei.svg);
+    /* background: url(/imagenes/wave-haikei.svg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     display: flex;
     flex-direction: column;
     justify-content: center;
