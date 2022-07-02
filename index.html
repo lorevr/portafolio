@@ -12,15 +12,16 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/head.css">
     <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/presentacion.css">
+    <link rel="stylesheet" href="css/sobre-mi.css">
     <link rel="stylesheet" href="css/skills.css">
     <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
         <p class="head__forma-base"></p>
-        <div  class="head__logo">
+        <div class="head__logo">
             <p>Lorena Valencia Ruiz</p>
         </div>
         <nav class="head__navegacion">
@@ -38,42 +39,64 @@
     <p class="head__linea2"></p>
     <main>
         <section class="presentacion">
-            <img  src="imagenes/fotoLorena.jpg" alt="Foto Lorena Valencia"  class="presentacion__foto">
+            <article class="presentacion__foto-redes">
+                <img src="imagenes/fotoLorena.jpg" alt="Foto Lorena Valencia" class="presentacion__foto">
+                <div class="presentacion__icons">
+                    <img src="/icons/github_icon.png" alt="Repositorio GitHub" title="Repositorio GitHub">
+                    <img src="/icons/linkedin_icon.png" alt="Linkedin" title="Linkedin">
+                    <img src="/icons/curriculum_icon.png" alt="Curriculum" title="Curriculum">
+                </div>
+            </article>
             <article class="presentacion__nombre">
                 <h1 class="presentacion__titulo titulo">Hola, mi nombre es Lorena Valencia Ruiz</h1>
-                <p class="presentacion__quienSoy contenido">Soy lic. en Sistemas Computacionales. Actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p> 
-                <p class="contenido">Participo también en el proyecto de Commerce Mind Acelera x10 tu carrera que se otorga a mujeres con formación en lenguajes de programación para desarrollo backend y frontend.</p>
-                <p class="contenido">Y soy parte del Learning Path en Desarrollo Web - JavaScript (Fase 1), beca que otorga Grupo Santander, a través de una alianza con BEDU
-                </p>    
+                <p class="presentacion__quienSoy contenido">Soy lic. en Sistemas Computacionales. Actualmente estoy
+                    participando en el proyecto <strong>ONE - Oracle Next Education</strong> en alianza con <strong>Alura Latam</strong>. Un programa que forma profesionales con habilidades técnicas y conductuales para actuar como Jr. Developer para crear y mejorar sitios web, software y aplicaciones.</p>
+                <p class="contenido">Participo también en el programa de <strong>Commerce Mind Acelera x10 tu carrera</strong> que se
+                    otorga a mujeres con formación en lenguajes de programación para desarrollo backend y frontend.</p>
+                <p class="contenido">Y soy parte del <strong>Learning Path en Desarrollo Web - JavaScript</strong> (Fase 1), beca que
+                    otorga <strong>Grupo Santander</strong>, a través de la alianza con BEDU
+                </p>
             </article>
         </section>
+
+
         <section class="sobreMi">
+            <img src="/imagenes/fondo-computadora.png" alt="Fondo computadora" class="sobreMi__fondo">
             <p class="titulo">Sobre mí</p>
-            <p class="contenido">He laborado realizando tareas de programador; modificando y corrigiendo sistemas existentes; además de soporte técnico a computadoras y apoyo a usuarios.</p>
-            <p class="contenido">Los últimos años los realicé actualizando diariamente la pagina web de la empresa, utilizando Wordpress.</p>
-            <p class="contenido">Aunque mis conocimientos aún son básicos, quiero especializarme en programación Fron-End. Estoy adquiriendo conocimientos en Javascript, HTML, CSS y React; busco adquirir experiencia y contribuir en el crecimiento de la empresa/cliente con quien trabaje.</p>
-            <p class="contenido">Me considero una persona trabajadora, responsable y honesta, con disposición a ayudar si así lo requieren.</p>   
+            <p class="contenido">He laborado realizando tareas de programador; modificando y corrigiendo sistemas
+                    existentes; además de soporte técnico a computadoras y apoyo a usuarios.</p>
+            <p class="contenido">Los últimos años los realicé actualizando diariamente la pagina web de la empresa,
+                    utilizando Wordpress.</p>
+            <p class="contenido">Aunque mis conocimientos aún son básicos, quiero especializarme en programación
+                    Fron-End. Estoy adquiriendo conocimientos en Javascript, HTML, CSS y React; busco adquirir experiencia y
+                    contribuir en el crecimiento de la empresa/cliente con quien trabaje.</p>
+            <p class="contenido">Me considero una persona trabajadora, responsable y honesta, con disposición a ayudar
+                    si así lo requieren.</p>
+            <img src="/icons/smile_icon.png" alt="icono sonrie" class="sobreMi__icono-sonrie">
         </section>
+
+
+
         <section class="skills">
             <p class="skills__titulo">Skills</p>
             <p>HTML</p>
             <div class="skills__container">
-            <div class="skills__skill skills__skill-html">90%</div>
+                <div class="skills__skill skills__skill-html">90%</div>
             </div>
 
             <p>CSS</p>
             <div class="container">
-            <div class="skills__skill skills__skill-css">80%</div>
+                <div class="skills__skill skills__skill-css">80%</div>
             </div>
 
             <p>JavaScript</p>
             <div class="container">
-            <div class="skills__skill skills__skill-js">65%</div>
+                <div class="skills__skill skills__skill-js">65%</div>
             </div>
 
             <p>PHP</p>
             <div class="container">
-            <div class="skills__skill skills__skill-php">60%</div>
+                <div class="skills__skill skills__skill-php">60%</div>
             </div>
         </section>
     </main>

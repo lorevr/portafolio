@@ -1,4 +1,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #d8dfe8;
+    background-color: #dbdde0;
+}
+
+strong {
+    font-weight: bolder;
 }

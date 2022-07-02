@@ -1,0 +1,28 @@
+.sobreMi {
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sobreMi__fondo{
+    position: absolute;
+    margin: auto auto;
+    opacity: 0.2;
+    align-self: center;
+}
+
+.sobreMi p {
+    text-align: left;
+}
+
+.sobreMi__icono-sonrie {
+    width: 40px;
+    margin-left: 5%;
+}
+
+@media screen and (min-width: 860px) {
+    .sobreMi {
+        padding: 2% 10% 5% 10%;
+    }
+}
