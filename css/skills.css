@@ -1,26 +1,133 @@
-.skills__titulo {
-    font-family: 'Montserrat', serif;
-    color: #04254d;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: center;
+.skills {
+  background-color: #04254d;
+  color: #fbfbfb;
+}
 
-    padding: 1.5rem 1rem;
+.skills_contenedor-global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5%;
+  padding-bottom: 4rem;
+}
+
+.skills__titulo {
+  font-family: 'Montserrat', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+
+  padding: 1.5rem 1rem;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skill img {
+  width: 40px;
+}
+
+.skill p {
+  width: 4rem;
 }
 
 .skills__container {
-    width: 100%;
-    background-color: #ddd;
+  width: 100%;
+  background-color: transparent;
+  margin: 0.5rem 1rem;
+  border: 1px solid #03f;
+  padding: 1px;
+  color: #ddd;
+  width: 350px;
+  font-size: 0.75em;
+  box-shadow: 0 0 10px rgb(0, 255, 68);
+  border-radius: 16px;
+
+}
+
+.skills__skill {
+  margin: 2px 0 2px 5px;
+  text-align: right;
+  padding: 10px 5px 10px 10px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.skills__skill-html {
+  width: 80%;
+  background-color: #04AA6D;
+}
+
+.skills__skill-css {
+  width: 80%;
+  background-color: #2196F3;
+}
+
+.skills__skill-js {
+  width: 60%;
+  background-color: #f44336;
+}
+
+.skills__skill-react {
+  width: 30%;
+  background-color: #db7e14;
+}
+
+.skills__skill-bootstrap {
+  width: 30%;
+  background-color: #04AA6D;
+}
+
+.skills__skill-sass {
+  width: 30%;
+  background-color: #2196F3;
+}
+
+.skills__skill-git {
+  width: 60%;
+  background-color: #f44336;
+}
+
+.skills__skill-sql {
+  width: 50%;
+  background-color: #db7e14;
+}
+
+.skills__skill-node {
+  width: 30%;
+  background-color: #04AA6D;
+}
+
+.skills__skill-c {
+  width: 50%;
+  background-color: #2196F3;
+}
+
+.skills__skill-photoshop {
+  width: 40%;
+  background-color: #f44336;
+}
+
+@media screen and (min-width: 992px) {
+  .skills_contenedor-global{
+    flex-wrap: wrap;
+    max-height: 500px;
   }
-  
-  .skills__skill {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
+
+  .skills__container {
+    margin: 1rem;
   }
-  
-  .skills__skill-html {width: 90%; background-color: #04AA6D;} 
-  .skills__skill-css {width: 80%; background-color: #2196F3;} 
-  .skills__skill-js {width: 65%; background-color: #f44336;} 
-  .skills__skill-php {width: 60%; background-color: #808080;} 
+}
+
+@media screen and (min-width: 1400px) {
+  .skills_contenedor-global{
+    max-height: 300px;
+  }
+}
