@@ -1,6 +1,7 @@
 .skills {
   background-color: #04254d;
   color: #fbfbfb;
+  width: 100%;
 }
 
 .skills_contenedor-global {
@@ -41,7 +42,7 @@
   border: 1px solid #03f;
   padding: 1px;
   color: #ddd;
-  width: 350px;
+  width: 250px;
   font-size: 0.75em;
   box-shadow: 0 0 10px rgb(0, 255, 68);
   border-radius: 16px;
@@ -113,6 +114,12 @@
 .skills__skill-photoshop {
   width: 40%;
   background-color: #f44336;
+}
+
+@media screen and (min-width: 500px) {
+  .skills__container {
+    width: 350px;
+  }
 }
 
 @media screen and (min-width: 992px) {
