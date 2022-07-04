@@ -2,12 +2,16 @@
     background-color: #c7ad8761;
 }
 
+.formacion__titulo {
+    padding-top: 2rem;
+}
+
 .formacion__logos {
     display: grid;
-    grid-template-columns: 60%;
+    grid-template-columns: 70%;
     justify-content: center;
     gap: 1rem;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
 }
 
 .formacion img {
@@ -33,7 +37,7 @@
     .formacion__logos {
         grid-template-columns: 50% 50%;
         align-items: center;
-        padding: 5%;
+        padding: 2rem 8%;
     } 
 
     .formacion img {

@@ -19,13 +19,11 @@ header {
 }
 
 .head__lineas {
-    background-color: #c7ad87;
+    background-color: #c7ad8761;
     width: 100%;
     max-width: 1400px;
     margin: auto;
     padding-top: 2px;
-    
-    
 }
 
 .head__linea {
