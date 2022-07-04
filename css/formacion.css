@@ -1,0 +1,42 @@
+.formacion {
+    background-color: #c7ad8761;
+}
+
+.formacion__logos {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+
+.formacion img {
+    width: 150px;
+    justify-self: center;
+    border: #0a3871 5px ridge;
+    padding: 1rem;
+}
+
+.formacion__logos p {
+    font-weight: 400;
+}
+
+.formacion__logos p::before {
+    content: "-";
+}
+
+.formacion__logos span {
+    font-weight: 600;
+}
+
+@media screen and (min-width: 500px) {
+    .formacion__logos {
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        padding: 5%;
+    } 
+
+    .formacion img {
+        width: 50%;
+    }
+}

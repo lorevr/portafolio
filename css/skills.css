@@ -19,7 +19,6 @@
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
-
   padding: 1.5rem 1rem;
 }
 
@@ -48,7 +47,6 @@
   font-size: 0.75em;
   box-shadow: 0 0 10px rgb(0, 255, 68);
   border-radius: 16px;
-
 }
 
 .skills__skill {
@@ -136,7 +134,7 @@
 }
 
 .soft__skills img {
-  width: 50px;
+  width: 4rem;
 }
 
 @media screen and (min-width: 500px) {

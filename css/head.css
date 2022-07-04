@@ -1,11 +1,11 @@
 header {
-    color: #0a3871;
+    color: #fbfbfb;
     font-weight: 500;
     width: 100%;
     max-width: 1400px;
     margin: auto auto;
     height: 25px;
-    background-color: #65b8D8;
+    background-color: #594076;
     padding-top: 0.5rem;
 }
 
@@ -18,19 +18,27 @@ header {
     margin-top: -15px;
 }
 
-.head__linea {
-    background: #65b8D8;
+.head__lineas {
+    background-color: #c7ad87;
     width: 100%;
-    height: 5px;
     max-width: 1400px;
-    margin: 2px auto 0 auto; 
+    margin: auto;
+    padding-top: 2px;
+    
+    
+}
+
+.head__linea {
+    background: #594076;
+    height: 5px;
+    margin: 0 auto 0 auto;
+
+     
 }
 
 .head__linea2 {
-    background: #65b8D8;
-    width: 100%;
+    background: #594076;
     height: 3px;
-    max-width: 1400px;
     margin: 2px auto 0 auto;
 }
 
