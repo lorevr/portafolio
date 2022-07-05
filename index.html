@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/formacion.css">
     <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
 </head>
 
@@ -290,7 +291,7 @@
                     <img src="imagenes/imagen-tech-travel.jpg" alt="">
                 </div>
                 <div>
-                    <p class="proyectos__project-titulo">Tienda Tech Travel Application</p>
+                    <p class="proyectos__project-titulo">Tienda Tech Travel</p>
                     <p class="proyectos__project-realizado">Proyecto básico con React</p>
                     <p class="proyectos__project-texto">Proyecto Acelera x10</p>
                     <div class="proyectos__botones">
@@ -299,6 +300,28 @@
                     </div>
                 </div>
             </article>
+        </section>
+        <section class="formulario">
+            <p class="formulario__titulo titulo">Contacto</p>
+            <p class="formulario__titulo-pregunta">¿Quieres contactarme?</p>
+            <p class="formulario__titulo-descripcion">Completa el siguiente formulario y me pondré en contacto contigo</p>
+            <form class="form" action="mailto:lore_vr@hotmail.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre*:</label>
+                <input type="text" name="Nombre" id="nombre" placeholder="Escribe tu nombre aquí.." required>
+                <label for="e-mail">E-mail*:</label>
+                <input type="text" name="E-mail" id="e-mail" placeholder="Cuál es tu correo"  required>
+                <label for="asunto">Asunto*:</label>
+                <input type="text" name="Asunto" id="asunto" placeholder="Asunto"  required>
+                <label for="mensaje">Mensaje*:</label>
+                <input type="text" name="Mensaje" id="mensaje" placeholder="¿Cuál es tu mensaje?"  required>
+                <input type="submit" value="Enviar mensaje" class="form-submit">
+
+                <p>* Información obligatoria</p>
+                <div>
+                    <span>771 208 3874</span>
+                    <span>lore_vr@hotmail.com</span>
+                </div>
+            </form>
         </section>
     </main>
 </body>
