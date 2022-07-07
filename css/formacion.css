@@ -1,5 +1,6 @@
 .formacion {
-    background-color: #04254d1a;
+    /* background-color: #04254d1a; */
+    background: linear-gradient(to bottom, #04254d1a 95%, #fbcb8d73);
 }
 
 .formacion__titulo {

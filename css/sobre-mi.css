@@ -1,5 +1,6 @@
 .sobreMi {
-    background-color: #04254d1a;
+    /* background-color: #04254d1a; */
+    background: linear-gradient(to top, #04254d1a 95%, #fbcb8d73);
     display: flex;
     flex-direction: column;
     align-items: left;

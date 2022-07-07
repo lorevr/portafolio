@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/formacion.css">
     <link rel="stylesheet" href="css/proyectos.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
 </head>
 
@@ -30,7 +31,7 @@
         </div>
         <nav class="head__navegacion">
             <ul class="head__enlace">
-                <li class="head__enlace-link"><a href="">Sobre mi</a></li>
+                <li class="head__enlace-link"><a href=".sobreMi">Sobre mi</a></li>
                 <li class="head__enlace-link"><a href="">Skills</a></li>
                 <li class="head__enlace-link"><a href="">Hobbies</a></li>
                 <li class="head__enlace-link"><a href="">Formación</a></li>
@@ -48,9 +49,15 @@
             <article class="presentacion__foto-redes">
                 <img src="imagenes/fotoLorena.jpg" alt="Foto Lorena Valencia" class="presentacion__foto">
                 <div class="presentacion__icons">
-                    <img src="icons/github_icon.png" alt="Repositorio GitHub" title="Repositorio GitHub">
-                    <img src="icons/linkedin_icon.png" alt="Linkedin" title="Linkedin">
-                    <img src="icons/curriculum_icon.png" alt="Curriculum" title="Curriculum">
+                    <a href="https://github.com/lorevr/portafolio.git" target="_blank">
+                        <img src="icons/github_icon.png" alt="Repositorio GitHub" title="Repositorio GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/lorevalenciar" target="_blank">
+                        <img src="icons/linkedin_icon.png" alt="Linkedin" title="Linkedin">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="icons/curriculum_icon.png" alt="Curriculum" title="Curriculum">
+                    </a>
                 </div>
             </article>
             <article class="presentacion__nombre">
@@ -84,9 +91,6 @@
                 si así lo requieren.</p>
             <img src="icons/smile_icon.png" alt="icono sonrie" class="sobreMi__icono-sonrie">
         </section>
-
-
-
         <section class="skills">
             <p class="skills__titulo">Skills</p>
             <article class="skills_contenedor-global">
@@ -267,8 +271,8 @@
                     <p class="proyectos__project-realizado">Realizado con HTML, CSS y JavaScript</p>
                     <p class="proyectos__project-texto">Challenge Oracle</p>
                     <div class="proyectos__botones">
-                        <button>Repositorio</button>
-                        <button>Ver Demo</button>
+                        <a href="https://github.com/lorevr/EncriptadorTexto.git" target="_blank">Repositorio</a>
+                        <a href="https://lorevr.github.io/EncriptadorTexto/" target="_blank">Ver Demo</a>
                     </div>
                 </div>
             </article>
@@ -281,8 +285,8 @@
                     <p class="proyectos__project-realizado">Realizado con HTML, CSS y JavaScript</p>
                     <p class="proyectos__project-texto">Challenge Oracle</p>
                     <div class="proyectos__botones">
-                        <button>Repositorio</button>
-                        <button>Ver Demo</button>
+                        <a href="https://github.com/lorevr/juego-ahorcado.git" target="_blank">Repositorio</a>
+                        <a href="https://lorevr.github.io/juego-ahorcado/" target="_blank">Ver Demo</a>
                     </div>
                 </div>
             </article>
@@ -295,13 +299,14 @@
                     <p class="proyectos__project-realizado">Proyecto básico con React</p>
                     <p class="proyectos__project-texto">Proyecto Acelera x10</p>
                     <div class="proyectos__botones">
-                        <button>Repositorio</button>
-                        <button>Ver Demo</button>
+                        <a href="https://github.com/lorevr/tech-travel-application.git" target="_blank">Repositorio</a>
+                        <a href="https://lorevr.github.io/tech-travel-application/" target="_blank">Ver Demo</a>
                     </div>
                 </div>
             </article>
         </section>
         <section class="formulario">
+            <img src="imagenes/sobre-carta.png" alt="Imagen carta" class="formulario-carta">
             <p class="formulario__titulo titulo">Contacto</p>
             <p class="formulario__titulo-pregunta">¿Quieres contactarme?</p>
             <p class="formulario__titulo-descripcion">Completa el siguiente formulario y me pondré en contacto contigo</p>
@@ -318,11 +323,17 @@
 
                 <p>* Información obligatoria</p>
                 <div>
-                    <span>771 208 3874</span>
+                    <span>+52 771 208 3874</span>
                     <span>lore_vr@hotmail.com</span>
                 </div>
             </form>
         </section>
+        <footer>
+            <div class="footer__linea1"></div>
+            <div class="footer__linea2"></div>
+            <p class="footer__contenido">Todos los derechos reservados</p>
+            <p class="footer__contenido">Lorena Valencia Ruiz &copy2022</p>
+        </footer>
     </main>
 </body>
 
