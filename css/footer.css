@@ -1,8 +1,8 @@
 footer {
-    background-color: #594076;
+    background-color: #2F3E44;
     color: #fbfbfb;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     padding: 0.5rem 0;
     line-height: 1.5;
     box-shadow: 0 -6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -18,7 +18,7 @@ footer {
 .footer__linea1 {
     width: 80%;
     height: 4px;
-    background-color: #594076;
+    background-color: #2F3E44;
     position: absolute;
     top: -18px;
 }
@@ -26,7 +26,7 @@ footer {
 .footer__linea2 {
     width: 90%;
     height: 6px;
-    background-color: #594076;
+    background-color: #2F3E44;
     position: absolute;
     top: -10px;
 }

@@ -1,5 +1,6 @@
 .proyectos {
-    background-color: #fbcb8d73;
+    background: rgb(216,223,232);
+    background: linear-gradient(180deg, rgba(216,223,232,1) 11%, rgba(145,184,193,1) 60%, rgba(145,184,193,1) 100%);
     color: #04254d;
     display: flex;
     flex-direction: column;

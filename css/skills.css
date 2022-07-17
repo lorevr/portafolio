@@ -1,5 +1,5 @@
 .skills {
-  background-color: #04254d;
+  background-color: #295669;
   color: #fbfbfb;
   width: 100%;
   padding-bottom: 1rem;
@@ -40,12 +40,12 @@
   width: 100%;
   background-color: transparent;
   margin: 0.5rem 1rem;
-  border: 1px solid #03f;
+  border: 1px solid #DED7C9;
   padding: 1px;
   color: #ddd;
   width: 250px;
   font-size: 0.75em;
-  box-shadow: 0 0 10px rgb(0, 255, 68);
+  box-shadow: 0 0 10px #C7D8D9;
   border-radius: 16px;
 }
 
@@ -58,62 +58,62 @@
   border-bottom-left-radius: 10px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .skills__skill-html {
   width: 80%;
-  background-color: #04AA6D;
+  background-color: #049862;
+  
 }
 
 .skills__skill-css {
   width: 80%;
-  background-color: #2196F3;
+  background-color: #3d6af0;
 }
 
 .skills__skill-js {
   width: 60%;
-  background-color: #f44336;
+  background-color: #d92e22;
 }
 
 .skills__skill-react {
   width: 30%;
-  background-color: #db7e14;
+  background-color: #c3853f;
 }
 
 .skills__skill-bootstrap {
   width: 30%;
-  background-color: #04AA6D;
+  background-color: #049862;
 }
 
 .skills__skill-sass {
   width: 30%;
-  background-color: #2196F3;
+  background-color: #3d6af0;
 }
 
 .skills__skill-git {
   width: 60%;
-  background-color: #f44336;
+  background-color: #d92e22;
 }
 
 .skills__skill-sql {
   width: 50%;
-  background-color: #db7e14;
+  background-color: #c3853f;
 }
 
 .skills__skill-node {
   width: 30%;
-  background-color: #04AA6D;
+  background-color: #049862;
 }
 
 .skills__skill-c {
   width: 50%;
-  background-color: #2196F3;
+  background-color: #3d6af0;
 }
 
 .skills__skill-photoshop {
   width: 40%;
-  background-color: #f44336;
+  background-color: #d92e22;
 }
 
 .soft_contenedor {

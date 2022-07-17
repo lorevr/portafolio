@@ -1,6 +1,5 @@
 .formulario{
-    /* background:#04254d1a; */
-    background: linear-gradient(to top, #04254d1a 95%, #fbcb8d73);
+    background: linear-gradient(180deg, rgba(216,223,232,0.5) 11%, rgba(145,184,193,0.6) 60%, rgba(145,184,193,0.6) 100%);
     padding: 5%;
     font-size: 1rem;
 }
@@ -49,7 +48,7 @@
     color:#373737;
 }
 
-.form input{
+.form input, textarea {
     background: #fbfbfb;
     width:100%;
     padding:10px;
@@ -68,18 +67,29 @@
     padding:8px 12px;
     margin:8px 0 10px 0;
     font-family: 'Open Sans', sans-serif;
-    border:2px solid #3f255cc4;
+    border:2px solid #2F3E44;
     border-radius: 5px;
     color:#fbfbfb;
     cursor:pointer;
     transition:all .3s;
-    background-color: #594076c4;
+    background-color: #2F3E44;
+}
+
+.form-submit:hover {
+    background-color: #568281;
 }
 
 .form p {
     font-size: 0.75rem;
     margin-bottom: 2rem;
 }
+
+.form-input {
+    color: rgb(200, 52, 52);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
 
 .formulario div{
     position:absolute;
@@ -102,7 +112,7 @@
 
 @media screen and (min-width: 860px) {
     .form-submit:hover{
-        background:#3f255cc4;
+        background:#568281;
         color:#fff;
     }
 }

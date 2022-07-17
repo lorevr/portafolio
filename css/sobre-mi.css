@@ -1,10 +1,11 @@
 .sobreMi {
-    /* background-color: #04254d1a; */
-    background: linear-gradient(to top, #04254d1a 95%, #fbcb8d73);
+    background: rgb(215,230,233);
+    background: linear-gradient(180deg, rgba(215,230,233,1) 6%, rgba(125,165,181,1) 81%, rgba(125,165,181,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
+    position: relative;
 }
 
 .sobreMi__fondo{
@@ -23,6 +24,14 @@
 .sobreMi__icono-sonrie {
     width: 40px;
     margin-left: 5%;
+}
+
+.subir {
+    width: 70px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
 }
 
 @media screen and (min-width: 860px) {

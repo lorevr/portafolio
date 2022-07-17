@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Lorena Valencia Ruiz</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
         rel="stylesheet">
@@ -24,19 +25,18 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <p class="head__forma-base"></p>
         <div class="head__logo">
             <p>Lorena Valencia Ruiz</p>
         </div>
         <nav class="head__navegacion">
             <ul class="head__enlace">
-                <li class="head__enlace-link"><a href=".sobreMi">Sobre mi</a></li>
-                <li class="head__enlace-link"><a href="">Skills</a></li>
-                <li class="head__enlace-link"><a href="">Hobbies</a></li>
-                <li class="head__enlace-link"><a href="">Formación</a></li>
-                <li class="head__enlace-link"><a href="">Proyectos</a></li>
-                <li class="head__enlace-link"><a href="">Contacto</a></li>
+                <li class="head__enlace-link"><a href="#idSobreMi">Sobre mi</a></li>
+                <li class="head__enlace-link"><a href="#IdSkills">Skills</a></li>
+                <li class="head__enlace-link"><a href="#IdFormacion">Formación</a></li>
+                <li class="head__enlace-link"><a href="#IdProyectos">Proyectos</a></li>
+                <li class="head__enlace-link"><a href="#IdFormulario">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -46,21 +46,21 @@
     </div>
     <main>
         <section class="presentacion">
-            <article class="presentacion__foto-redes">
+            <article class="presentacion__foto-redes" data-aos="fade-left">
                 <img src="imagenes/fotoLorena.jpg" alt="Foto Lorena Valencia" class="presentacion__foto">
                 <div class="presentacion__icons">
-                    <a href="https://github.com/lorevr/portafolio.git" target="_blank">
+                    <a href="https://github.com/lorevr/portafolio.git">
                         <img src="icons/github_icon.png" alt="Repositorio GitHub" title="Repositorio GitHub">
                     </a>
-                    <a href="https://www.linkedin.com/in/lorevalenciar" target="_blank">
+                    <a href="https://www.linkedin.com/in/lorevalenciar">
                         <img src="icons/linkedin_icon.png" alt="Linkedin" title="Linkedin">
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="cv.html">
                         <img src="icons/curriculum_icon.png" alt="Curriculum" title="Curriculum">
                     </a>
                 </div>
             </article>
-            <article class="presentacion__nombre">
+            <article class="presentacion__nombre" data-aos="fade-right">
                 <h1 class="presentacion__titulo titulo">Hola, mi nombre es Lorena Valencia Ruiz</h1>
                 <p class="presentacion__quienSoy contenido">Soy lic. en Sistemas Computacionales. Actualmente estoy
                     participando en el proyecto <strong>ONE - Oracle Next Education</strong> en alianza con
@@ -71,33 +71,33 @@
                 <p class="contenido">Participo también en el programa de <strong>Commerce Mind Acelera x10 tu
                         carrera</strong> que se
                     otorga a mujeres con formación en lenguajes de programación para desarrollo backend y frontend.</p>
-                <p class="contenido">Y soy parte del <strong>Learning Path en Desarrollo Web - JavaScript</strong> (Fase
-                    1), beca que
-                    otorga <strong>Grupo Santander</strong>, a través de la alianza con BEDU
-                </p>
             </article>
         </section>
-        <section class="sobreMi">
+        <section id="idSobreMi" class="sobreMi">
             <img src="imagenes/fondo-computadora.png" alt="Fondo computadora" class="sobreMi__fondo">
             <p class="titulo">Sobre mí</p>
-            <p class="contenido">He laborado realizando tareas de programador; modificando y corrigiendo sistemas
+            <p class="contenido" data-aos="fade-up">He laborado realizando tareas de programador; modificando y corrigiendo sistemas
                 existentes; además de soporte técnico a computadoras y apoyo a usuarios.</p>
-            <p class="contenido">Los últimos años los realicé actualizando diariamente la pagina web de la empresa,
+            <p class="contenido" data-aos="fade-up">Los últimos años los realicé actualizando diariamente la pagina web de la empresa,
                 utilizando Wordpress.</p>
-            <p class="contenido">Aunque mis conocimientos aún son básicos, quiero especializarme en programación
+            <p class="contenido" data-aos="fade-up">Aunque mis conocimientos aún son básicos, quiero especializarme en programación
                 Fron-End. Estoy adquiriendo conocimientos en Javascript, HTML, CSS y React; busco adquirir experiencia y
                 contribuir en el crecimiento de la empresa/cliente con quien trabaje.</p>
-            <p class="contenido">Me considero una persona trabajadora, responsable y honesta, con disposición a ayudar
+            <p class="contenido" data-aos="fade-up">He dado asesorías de matemáticas y me gusta el basquetbol</p>
+            <p class="contenido" data-aos="fade-up">Me considero una persona trabajadora, responsable y honesta, con disposición a ayudar
                 si así lo requieren.</p>
-            <img src="icons/smile_icon.png" alt="icono sonrie" class="sobreMi__icono-sonrie">
+            <img src="icons/smile_icon.png" alt="icono sonrie" class="sobreMi__icono-sonrie" data-aos="fade-up">
+            <a href="#header">
+                <img src="icons/flecha-arriba.png" alt="Flecha arriba" title="Ir al Inicio" class="subir">
+            </a>
         </section>
-        <section class="skills">
+        <section id="IdSkills" class="skills">
             <p class="skills__titulo">Skills</p>
             <article class="skills_contenedor-global">
                 <div class="skill">
                     <img src="icons/html_icon.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-html">
+                        <div class="skills__skill skills__skill-html" data-aos="flip-left">
                             <div>HTML</div>
                             <div>80%</div>
                         </div>
@@ -107,7 +107,7 @@
                 <div class="skill">
                     <img src="icons/css_icon.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-css">
+                        <div class="skills__skill skills__skill-css" data-aos="flip-left">
                             <div>CSS</div>
                             <div>80%</div>
                         </div>
@@ -117,7 +117,7 @@
                 <div class="skill">
                     <img src="icons/javascript_icon.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-js">
+                        <div class="skills__skill skills__skill-js" data-aos="flip-left">
                             <div>JavaScript</div>
                             <div>60%</div>
                         </div>
@@ -127,7 +127,7 @@
                 <div class="skill">
                     <img src="icons/react_icon.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-react">
+                        <div class="skills__skill skills__skill-react" data-aos="flip-left">
                             <div>React</div>
                             <div>30%</div>
                         </div>
@@ -137,7 +137,7 @@
                 <div class="skill">
                     <img src="icons/bootstrap_icon.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-bootstrap">
+                        <div class="skills__skill skills__skill-bootstrap" data-aos="flip-left">
                             <div>Bootstrap</div>
                             <div>30%</div>
                         </div>
@@ -147,7 +147,7 @@
                 <div class="skill">
                     <img src="icons/sass_icon.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-sass">
+                        <div class="skills__skill skills__skill-sass" data-aos="flip-left">
                             <div>Sass</div>
                             <div>30%</div>
                         </div>
@@ -157,7 +157,7 @@
                 <div class="skill">
                     <img src="icons/git_icon.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-git">
+                        <div class="skills__skill skills__skill-git" data-aos="flip-left">
                             <div>Git</div>
                             <div>60%</div>
                         </div>
@@ -167,7 +167,7 @@
                 <div class="skill">
                     <img src="icons/database.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-sql">
+                        <div class="skills__skill skills__skill-sql" data-aos="flip-left">
                             <div>SQL Server</div>
                             <div>50%</div>
                         </div>
@@ -177,7 +177,7 @@
                 <div class="skill">
                     <img src="icons/nodejs_icon.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-node">
+                        <div class="skills__skill skills__skill-node" data-aos="flip-left">
                             <div>Node.js</div>
                             <div>30%</div>
                         </div>
@@ -187,7 +187,7 @@
                 <div class="skill">
                     <img src="icons/C-hashtag.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-c">
+                        <div class="skills__skill skills__skill-c" data-aos="flip-left">
                             <div>C#</div>
                             <div>50%</div>
                         </div>
@@ -197,7 +197,7 @@
                 <div class="skill">
                     <img src="icons/photoshop-icon.png" alt="">
                     <div class="skills__container">
-                        <div class="skills__skill skills__skill-photoshop">
+                        <div class="skills__skill skills__skill-photoshop" data-aos="flip-left">
                             <div>Photoshop</div>
                             <div>40%</div>
                         </div>
@@ -206,46 +206,53 @@
             </article>
             <p class="skills__titulo">Soft Skills</p>
             <article class="soft_contenedor">
-                <div class="soft__skills">
+                <div class="soft__skills" data-aos="flip-up">
                     <img src="icons/autodidacta.png" alt="icono comunicación">
                     <p>Autodidacta</p>
                 </div>
-                <div class="soft__skills">
+                <div class="soft__skills" data-aos="flip-up">
                     <img src="icons/imaginacion.png" alt="icono comunicación">
-                    <p>Imaginación</p>
+                    <p>Razonamiento analítico</p>
                 </div>
-                <div class="soft__skills">
+                <div class="soft__skills" data-aos="flip-up">
                     <img src="icons/equipo.png" alt="icono comunicación">
                     <p>Trabajo en equipo</p>
                 </div>
-                <div class="soft__skills">
+                <div class="soft__skills" data-aos="flip-up">
                     <img src="icons/empatia.png" alt="icono comunicación">
                     <p>Empatía</p>
                 </div>
-                <div class="soft__skills">
-                    <img src="icons/comunicacion.png" alt="icono comunicación">
-                    <p>Comunicación</p>
+                <div class="soft__skills" data-aos="flip-up">
+                    <img src="icons/adaptabilidad.png" alt="icono comunicación">
+                    <p>Adaptabilidad</p>
+                </div>
+                <div class="soft__skills" data-aos="flip-up">
+                    <img src="icons/manejo-del-estres.png" alt="icono comunicación">
+                    <p>Tolerancia al estrés</p>
                 </div>
             </article>
         </section>
 
-        <section class="formacion">
+        <section id="IdFormacion" class="formacion">
             <p class="formacion__titulo titulo">Formación Académica</p>
             <article class="formacion__logos">
-                <div>
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                     <img src="imagenes/alura-one.jpg" alt="Alura - ONE">
                     <p>Jr. Developer</p>
                     <span>En curso...</span>
                 </div>
-                <div>
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                     <img src="imagenes/acelera-x10.jpg" alt="Acelera x10">
                     <p>Back-End y Front-End</p>
                     <span>En curso...</span>
-                </div><div>
-                    <img src="imagenes/santander-becas.png" alt="Santander Becas">
-                    <p>Desarrollo Web - Javascript</p>
-                    <span>En curso...</span>
-                </div><div>
+                </div>
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                     <img src="imagenes/logo-udemy.svg" alt="Udemy">
                     <p>Diseño Web desde Cero a Avanzado</p>
                     <p>JavaScript Moderno</p>
@@ -253,16 +260,19 @@
                     <p>Git+GitHub</p>
                     <p>React: de cero a Avanzado</p>
                     <span>En curso...</span>
-                </div><div>
+                </div>
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                     <img src="imagenes/uaeh.png" alt="UAEH">
                     <p>Sistemas Computacionales</p>
                     <span>2002</span>
                 </div>
             </article>
         </section>
-        <section class="proyectos">
+        <section id="IdProyectos" class="proyectos">
             <p class="proyectos__titulo titulo">Proyectos realizados</p>
-            <article class="proyectos__project encriptador">
+            <article class="proyectos__project encriptador" data-aos="zoom-in-up">
                 <div>
                     <img src="imagenes/imagen-encriptador.jpg" alt="">
                 </div>
@@ -271,12 +281,12 @@
                     <p class="proyectos__project-realizado">Realizado con HTML, CSS y JavaScript</p>
                     <p class="proyectos__project-texto">Challenge Oracle</p>
                     <div class="proyectos__botones">
-                        <a href="https://github.com/lorevr/EncriptadorTexto.git" target="_blank">Repositorio</a>
-                        <a href="https://lorevr.github.io/EncriptadorTexto/" target="_blank">Ver Demo</a>
+                        <a href="https://github.com/lorevr/EncriptadorTexto.git">Repositorio</a>
+                        <a href="https://lorevr.github.io/EncriptadorTexto/">Ver Demo</a>
                     </div>
                 </div>
             </article>
-            <article class="proyectos__project ahorcado">
+            <article class="proyectos__project ahorcado" data-aos="zoom-in-up">
                 <div>
                     <img src="imagenes/imagen-ahorcado.jpg" alt="">
                 </div>
@@ -285,12 +295,12 @@
                     <p class="proyectos__project-realizado">Realizado con HTML, CSS y JavaScript</p>
                     <p class="proyectos__project-texto">Challenge Oracle</p>
                     <div class="proyectos__botones">
-                        <a href="https://github.com/lorevr/juego-ahorcado.git" target="_blank">Repositorio</a>
-                        <a href="https://lorevr.github.io/juego-ahorcado/" target="_blank">Ver Demo</a>
+                        <a href="https://github.com/lorevr/juego-ahorcado.git">Repositorio</a>
+                        <a href="https://lorevr.github.io/juego-ahorcado/">Ver Demo</a>
                     </div>
                 </div>
             </article>
-            <article class="proyectos__project techTravel">
+            <article class="proyectos__project techTravel" data-aos="zoom-in-up">
                 <div>
                     <img src="imagenes/imagen-tech-travel.jpg" alt="">
                 </div>
@@ -299,32 +309,31 @@
                     <p class="proyectos__project-realizado">Proyecto básico con React</p>
                     <p class="proyectos__project-texto">Proyecto Acelera x10</p>
                     <div class="proyectos__botones">
-                        <a href="https://github.com/lorevr/tech-travel-application.git" target="_blank">Repositorio</a>
-                        <a href="https://lorevr.github.io/tech-travel-application/" target="_blank">Ver Demo</a>
+                        <a href="https://github.com/lorevr/tech-travel-application.git">Repositorio</a>
+                        <a href="https://lorevr.github.io/tech-travel-application/">Ver Demo</a>
                     </div>
                 </div>
             </article>
         </section>
-        <section class="formulario">
+        <section id="IdFormulario" class="formulario">
             <img src="imagenes/sobre-carta.png" alt="Imagen carta" class="formulario-carta">
             <p class="formulario__titulo titulo">Contacto</p>
             <p class="formulario__titulo-pregunta">¿Quieres contactarme?</p>
             <p class="formulario__titulo-descripcion">Completa el siguiente formulario y me pondré en contacto contigo</p>
-            <form class="form" action="mailto:lore_vr@hotmail.com" method="post" enctype="text/plain">
-                <label for="nombre">Nombre*:</label>
-                <input type="text" name="Nombre" id="nombre" placeholder="Escribe tu nombre aquí.." required>
-                <label for="e-mail">E-mail*:</label>
-                <input type="text" name="E-mail" id="e-mail" placeholder="Cuál es tu correo"  required>
-                <label for="asunto">Asunto*:</label>
-                <input type="text" name="Asunto" id="asunto" placeholder="Asunto"  required>
-                <label for="mensaje">Mensaje*:</label>
-                <input type="text" name="Mensaje" id="mensaje" placeholder="¿Cuál es tu mensaje?"  required>
+            <form class="form" action="mailto:lore_vr@hotmail.com" method="post" enctype="text/plain" autocomplete="off">
+                <label for="nombre">Nombre*: <span class="form-input form-error-nombre"></span></label>
+                <input type="text" name="Nombre" id="nombre" placeholder="Escribe tu nombre aquí.." maxlength="50">
+                <label for="e-mail">E-mail*: <span class="form-input form-error-email"></span></label>
+                <input type="email" name="E-mail" id="e-mail" placeholder="Cuál es tu correo">
+                <label for="asunto">Asunto*: <span class="form-input form-error-asunto" maxlength="50"></span></label>
+                <input type="text" name="Asunto" id="asunto" placeholder="Asunto">
+                <label for="mensaje">Mensaje*: <span class="form-input form-error-mensaje"></span></label>
+                <textarea name="Mensaje" id="mensaje" placeholder="¿Cuál es tu mensaje?"  maxlength="300" rows="5"></textarea>
                 <input type="submit" value="Enviar mensaje" class="form-submit">
 
                 <p>* Información obligatoria</p>
                 <div>
-                    <span>+52 771 208 3874</span>
-                    <span>lore_vr@hotmail.com</span>
+                    <span class="span-correo">lore_vr@hotmail.com</span>
                 </div>
             </form>
         </section>
@@ -335,6 +344,11 @@
             <p class="footer__contenido">Lorena Valencia Ruiz &copy2022</p>
         </footer>
     </main>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

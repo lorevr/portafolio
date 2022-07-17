@@ -5,7 +5,7 @@ header {
     max-width: 1400px;
     margin: auto auto;
     height: 25px;
-    background-color: #594076;
+    background-color: #2F3E44;
     padding-top: 0.5rem;
 }
 
@@ -27,15 +27,13 @@ header {
 }
 
 .head__linea {
-    background: #594076;
+    background: #2F3E44;
     height: 5px;
-    margin: 0 auto 0 auto;
-
-     
+    margin: 0 auto 0 auto; 
 }
 
 .head__linea2 {
-    background: #594076;
+    background: #2F3E44;
     height: 3px;
     margin: 2px auto 0 auto;
 }

@@ -1,5 +1,6 @@
 .presentacion {
-    background-color: #fbcb8d73;
+    background: rgb(216,223,232);
+    background: linear-gradient(180deg, rgba(216,223,232,1) 11%, rgba(145,184,193,1) 60%, rgba(145,184,193,1) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +21,7 @@
     width: 40%;
     height: 50%;
     border-radius: 40% 10% 20% 0;
-    border: 4px inset #65b8d8;
+    border: 4px inset #91B8C1;
     margin-bottom: 8px;
 }
 
@@ -47,7 +48,6 @@
     font-weight: 700;
     align-self: center;
     text-align: center;
-
     padding: 1rem;
 }
 
@@ -56,7 +56,6 @@
     font-size: 1rem;
     line-height: 1.5;
     text-align: justify;
-
     padding: 0 1.2rem 1.7rem 1.2rem;
 }
 

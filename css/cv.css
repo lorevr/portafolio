@@ -1,0 +1,11 @@
+html { 
+    color: #2F3E44;
+    background-color: #91B8C1; 
+    text-align: center;
+} 
+
+embed {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
